@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 from nace import load_nace_tree, get_subsectors
-from tcmb_client import fetch_xlsx_bytes, build_url, FILE_TYPES, SCALES
+from tcmb_client import fetch_xlsx_bytes, build_url, FetchError, FILE_TYPES, SCALES
 from parsers import parse
 
 
@@ -73,6 +73,10 @@ if compare_on:
     sector_code_2, scale_2, label_2 = sector_picker(prefix="b_")
 
 st.sidebar.divider()
+if st.sidebar.button("🔄 Önbelleği temizle"):
+    fetch_xlsx_bytes.clear()
+    st.sidebar.success("Önbellek temizlendi. Sayfayı yenileyin.")
+
 st.sidebar.caption(
     "ℹ️ Bazı sektör+ölçek kombinasyonlarında veri bulunmayabilir "
     "(gizlilik kuralı: firma sayısı 12'den az veya tek firma %80+ paya sahipse "
@@ -96,15 +100,15 @@ def fmt_thousands(df: pd.DataFrame) -> pd.DataFrame:
 
 def render_one(sector_code: str, scale: str, file_type: str):
     """Tek sektör + ölçek için belirli bir dosya tipini göster."""
-    with st.spinner(f"{sector_code}_{file_type}_{scale}.xlsx indiriliyor..."):
-        content = fetch_xlsx_bytes(sector_code, file_type, scale)
-
-    if content is None:
+    try:
+        with st.spinner(f"{sector_code}_{file_type}_{scale}.xlsx indiriliyor..."):
+            content = fetch_xlsx_bytes(sector_code, file_type, scale)
+    except FetchError as e:
         st.warning(
-            f"**Veri bulunamadı:** `{sector_code}_{file_type}_{scale}.xlsx`\n\n"
-            "Olası nedenler: bu sektör+ölçek kombinasyonu için TCMB'de dosya yok, "
-            "veya gizlilik nedeniyle yayınlanmamış.\n\n"
-            f"Denenen URL: {build_url(sector_code, file_type, scale)}"
+            f"**Veri indirilemedi:** `{sector_code}_{file_type}_{scale}.xlsx`\n\n"
+            f"Sebep: {e}\n\n"
+            f"URL: {build_url(sector_code, file_type, scale)}\n\n"
+            "Link tarayıcıda çalışıyorsa: Sidebar'daki **🔄 Önbelleği temizle** butonuna basın."
         )
         return
 
