@@ -154,8 +154,34 @@ def render_one(sector_code: str, scale: str, file_type: str):
 tab_labels = [FILE_TYPES[k] for k in FILE_TYPES]
 tabs = st.tabs(tab_labels)
 
+KARTIL_HELP = """
+**Bu tablo, sektördeki firmaların oran dağılımını gösterir.** Toplulaştırılmış tutarlar değil — firma bazında hesaplanmış oranların istatistiksel özetidir. Her yıl için 5 sütun var:
+
+- **Firma**: O oranın pay/paydası sıfır olmayan firma sayısı (uç değer analizi sonrası).
+- **Q (Ağr.)**: Aktif büyüklüğüne göre **ağırlıklı ortalama**. Büyük firmalar daha fazla ağırlık taşır.
+- **Q1**: Alt çeyrek. Firmaların **%25'i** bu değerin altında.
+- **Q2 (Med.)**: **Medyan**. Sıralandığında tam ortadaki firmanın değeri — "tipik firma" budur.
+- **Q3**: Üst çeyrek. Firmaların **%75'i** bu değerin altında.
+
+**Örnek — Cari Oran:** Q1=82, Q2=110, Q3=168, Q (Ağr.)=143
+
+- Tipik (medyan) firmanın cari oranı **110**.
+- Sektörün alt %25'i 82'nin altında çalışıyor (likidite zayıf).
+- Üst %25'i 168'in üstünde (rahat).
+- Ağırlıklı ortalama (143) medyandan (110) yüksek → birkaç büyük firma sektörü yukarı çekiyor.
+
+**Kendi firmanla karşılaştırma:** Cari oranın 95 ise → Q1'in üstünde ama medyanın altında, **alt yarıda** sıralanıyorsun.
+
+**Dağınıklık ölçüsü:** Q3 − Q1 farkı geniş ise sektörde firma farklılıkları büyük, dar ise homojen.
+
+ℹ️ TCMB uç değerleri Tukey's Hinges yöntemiyle dışlar; "Firma" sütunu analizdeki firma sayısını verir.
+"""
+
 for tab, (file_type, _) in zip(tabs, FILE_TYPES.items()):
     with tab:
+        if file_type == "KARTIL":
+            with st.expander("ℹ️ Q, Q1, Q2, Q3 ne anlama geliyor? (örnekli açıklama)"):
+                st.markdown(KARTIL_HELP)
         if compare_on and sector_code_2:
             col1, col2 = st.columns(2)
             with col1:
