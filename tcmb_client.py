@@ -31,20 +31,33 @@ SCALES = {
 }
 
 
+class FetchError(Exception):
+    """TCMB indirme başarısız (cache'lenmemesi için exception kullanılır)."""
+
+
 def build_url(sector_code: str, file_type: str, scale: str) -> str:
     return f"{BASE_URL}/{sector_code}_{file_type}_{scale}.xlsx"
 
 
 @st.cache_data(ttl=24 * 3600, show_spinner=False)
-def fetch_xlsx_bytes(sector_code: str, file_type: str, scale: str):
-    """XLSX'i indir; başarılıysa bytes, yoksa None döner.
-    Cache 24 saat. TCMB sayfası User-Agent + Referer kontrolü yapıyor."""
+def fetch_xlsx_bytes(sector_code: str, file_type: str, scale: str) -> bytes:
+    """XLSX'i indir ve bytes döner. Hata durumunda FetchError fırlatır
+    (None döndürmeyiz, çünkü Streamlit None'u 24 saat cache'ler)."""
     url = build_url(sector_code, file_type, scale)
     try:
-        r = requests.get(url, headers=HEADERS, timeout=30)
-        # XLSX magic bytes ile doğrula (HTML hata sayfası gelirse ayırt edelim)
-        if r.status_code == 200 and r.content[:4] == b"PK\x03\x04":
-            return r.content
-        return None
-    except requests.RequestException:
-        return None
+        r = requests.get(url, headers=HEADERS, timeout=30, allow_redirects=True)
+    except requests.RequestException as e:
+        raise FetchError(f"Bağlantı hatası: {e}")
+
+    if r.status_code != 200:
+        raise FetchError(f"HTTP {r.status_code}")
+
+    # HTML hata sayfası mı geldi?
+    head = r.content[:300].lower()
+    if b"<html" in head or b"<!doc" in head:
+        raise FetchError("Dosya yok (sunucu HTML hata sayfası döndü)")
+
+    if len(r.content) < 500:
+        raise FetchError(f"Dosya çok küçük ({len(r.content)} bayt)")
+
+    return r.content
