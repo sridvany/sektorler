@@ -1,0 +1,399 @@
+PDF dosyasındaki tüm ana sektörler (Kısımlar) için istenen formata uygun olarak hazırlanmış; 4 haneli (sınıf) tüm alt kategorilerden tamamen arındırılmış, sadece **Kısım**, **Bölüm (2 haneli)** ve **Grup (3 haneli)** başlıklarını içeren eksiksiz alt alta liste şu şekildedir:
+
+**A TARIM, ORMANCILIK VE BALIKÇILIK**
+A 01 Bitkisel ve hayvansal üretim ile avcılık ve ilgili hizmet faaliyetleri
+A 01.1 Tek yıllık (uzun ömürlü olmayan) bitkisel ürünlerin yetiştirilmesi
+A 01.2 Çok yıllık (uzun ömürlü) bitkisel ürünlerin yetiştirilmesi
+A 01.3 Dikim için bitki yetiştirilmesi
+A 01.4 Hayvansal üretim
+A 01.5 Karma çiftçilik
+A 01.6 Tarımı destekleyici faaliyetler ve hasat sonrası bitkisel ürünler ile ilgili faaliyetler
+A 01.7 Avcılık, tuzakla avlanma ve ilgili hizmet faaliyetleri
+A 02 Ormancılık ile endüstriyel ve yakacak odun üretimi
+A 02.1 Orman yetiştirme (Silvikültür) ve diğer ormancılık faaliyetleri
+A 02.2 Endüstriyel ve yakacak odun üretimi
+A 02.3 Tabii olarak yetişen odun dışı orman ürünlerinin toplanması
+A 02.4 Ormancılık için destekleyici faaliyetler
+A 03 Balıkçılık ve su ürünleri yetiştiriciliği
+A 03.1 Balıkçılık
+A 03.2 Su ürünleri yetiştiriciliği
+
+**B MADENCİLİK VE TAŞ OCAKÇILIĞI**
+B 05 Kömür ve linyit çıkartılması
+B 05.1 Taş kömürü madenciliği
+B 05.2 Linyit madenciliği
+B 06 Ham petrol ve doğal gaz çıkarımı
+B 06.1 Ham petrol çıkarımı
+B 06.2 Doğal gaz çıkarımı
+B 07 Metal cevherleri madenciliği
+B 07.1 Demir cevherleri madenciliği
+B 07.2 Demir dışı metal cevherleri madenciliği
+B 08 Diğer madencilik ve taş ocakçılığı
+B 08.1 Kum, kil ve taş ocakçılığı
+B 08.9 Başka yerde sınıflandırılmamış madencilik ve taş ocakçılığı
+B 09 Madenciliği destekleyici hizmet faaliyetleri
+B 09.1 Petrol ve doğal gaz çıkarımını destekleyici faaliyetler
+B 09.9 Madencilik ve taş ocakçılığını destekleyici diğer faaliyetler
+
+**C İMALAT**
+C 10 Gıda ürünlerinin imalatı
+C 10.1 Etin işlenmesi ve saklanması ile et ürünlerinin imalatı
+C 10.2 Balık, kabuklu deniz hayvanları ve yumuşakçaların işlenmesi ve saklanması
+C 10.3 Sebze ve meyvelerin işlenmesi ve saklanması
+C 10.4 Bitkisel ve hayvansal sıvı ve katı yağların imalatı
+C 10.5 Süt ürünleri imalatı
+C 10.6 Öğütülmüş tahıl ürünleri, nişasta ve nişastalı ürünlerin imalatı
+C 10.7 Fırın ve unlu mamuller imalatı
+C 10.8 Diğer gıda maddelerinin imalatı
+C 10.9 Hazır hayvan yemleri imalatı
+C 11 İçeceklerin imalatı
+C 11.0 İçeceklerin imalatı
+C 12 Tütün ürünleri imalatı
+C 12.0 Tütün ürünleri imalatı
+C 13 Tekstil ürünlerinin imalatı
+C 13.1 Tekstil elyafının hazırlanması ve bükülmesi
+C 13.2 Dokuma
+C 13.3 Tekstil ürünlerinin bitirilmesi
+C 13.9 Diğer tekstil ürünlerinin imalatı
+C 14 Giyim eşyalarının imalatı
+C 14.1 Kürk hariç, giyim eşyası imalatı
+C 14.2 Kürkten eşya imalatı
+C 14.3 Örme (trikotaj) ve tığ işi (kroşe) ürünlerin imalatı
+C 15 Deri ve ilgili ürünlerin imalatı
+C 15.1 Derinin tabaklanması ve işlenmesi; bavul, el çantası, saraçlık ve koşum takımı imalatı; kürkün işlenmesi ve boyanması
+C 15.2 Ayakkabı, bot, terlik vb. imalatı
+C 16 Ağaç, ağaç ürünleri ve mantar ürünleri imalatı (mobilya hariç); saz, saman ve benzeri malzemelerden örülerek yapılan eşyaların imalatı
+C 16.1 Ağaçların biçilmesi ve planyalanması
+C 16.2 Ağaç, mantar, kamış ve örgü malzeme ürünü imalatı
+C 17 Kağıt ve kağıt ürünlerinin imalatı
+C 17.1 Kağıt hamuru, kağıt ve mukavva imalatı
+C 17.2 Kağıt ve mukavva ürünleri imalatı
+C 18 Kayıtlı medyanın basılması ve çoğaltılması
+C 18.1 Basım ve basım ile ilgili hizmet faaliyetleri
+C 18.2 Kayıtlı medyanın çoğaltılması
+C 19 Kok kömürü ve rafine edilmiş petrol ürünleri imalatı
+C 19.1 Kok fırını ürünlerinin imalatı
+C 19.2 Rafine edilmiş petrol ürünleri imalatı
+C 20 Kimyasalların ve kimyasal ürünlerin imalatı
+C 20.1 Temel kimyasal maddelerin, kimyasal gübre ve azot bileşikleri, birincil formda plastik ve sentetik kauçuk imalatı
+C 20.2 Haşere ilaçları ve diğer zirai-kimyasal ürünlerin imalatı
+C 20.3 Boya, vernik ve benzeri kaplayıcı maddeler ile matbaa mürekkebi ve macun imalatı
+C 20.4 Sabun ve deterjan, temizlik ve parlatıcı maddeleri; parfüm; kozmetik ve tuvalet malzemeleri imalatı
+C 20.5 Diğer kimyasal ürünlerin imalatı
+C 20.6 Suni veya sentetik elyaf imalatı
+C 21 Temel eczacılık ürünlerinin ve eczacılığa ilişkin malzemelerin imalatı
+C 21.1 Temel eczacılık ürünleri imalatı
+C 21.2 Eczacılığa ilişkin ilaçların imalatı
+C 22 Kauçuk ve plastik ürünlerin imalatı
+C 22.1 Kauçuk ürünlerin imalatı
+C 22.2 Plastik ürünlerin imalatı
+C 23 Diğer metalik olmayan mineral ürünlerin imalatı
+C 23.1 Cam ve cam ürünleri imalatı
+C 23.2 Ateşe dayanıklı (refrakter) ürünlerin imalatı
+C 23.3 Kilden inşaat malzemeleri imalatı
+C 23.4 Diğer porselen ve seramik ürünlerin imalatı
+C 24 Ana metal sanayii
+C 24.1 Ana demir ve çelik ürünleri ile ferro alaşımların imalatı
+C 24.2 Çelikten tüpler, borular, içi boş profiller ve benzeri bağlantı parçalarının imalatı
+C 24.3 Çeliğin ilk işlenmesinde elde edilen diğer ürünlerin imalatı
+C 24.4 Değerli ana metaller ve diğer demir dışı metallerin imalatı
+C 24.5 Metal döküm sanayii
+C 25 Fabrikasyon metal ürünleri imalatı (makine ve teçhizat hariç)
+C 25.1 Metal yapı malzemeleri imalatı
+C 25.2 Metal tank, rezervuar ve muhafaza kapları imalatı
+C 25.3 Buhar jeneratörü imalatı, merkezi ısıtma sıcak su kazanları (boylerleri) hariç
+C 25.4 Silah ve mühimmat (cephane) imalatı
+C 25.5 Metallerin dövülmesi, preslenmesi, baskılanması ve yuvarlanması; toz metalürjisi
+C 25.6 Metallerin işlenmesi ve kaplanması; makinede işleme
+C 25.7 Çatal-bıçak takımı ve diğer kesici aletler ile el aletleri ve genel hırdavat malzemeleri imalatı
+C 25.9 Diğer fabrikasyon metal ürünlerin imalatı
+C 26 Bilgisayarların, elektronik ve optik ürünlerin imalatı
+C 26.1 Elektronik bileşenlerin ve devre kartlarının imalatı
+C 26.2 Bilgisayar ve bilgisayar çevre birimleri imalatı
+C 26.3 İletişim ekipmanlarının imalatı
+C 26.4 Tüketici elektroniği ürünlerinin imalatı
+C 26.5 Ölçme, test ve seyrüsefer amaçlı alet ve cihazlar ile saat imalatı
+C 26.6 Işınlama, elektromedikal ve elektroterapi ekipmanlarının imalatı
+C 26.7 Optik aletlerin ve fotoğraf ekipmanlarının imalatı
+C 26.8 Manyetik ve optik medya imalatı
+C 27 Elektrikli teçhizat imalatı
+C 27.1 Elektrik motoru, jeneratör, transformatör ile elektrik dağıtım ve kontrol cihazlarının imalatı
+C 27.2 Akümülatör ve pil imalatı
+C 27.3 Kablolamada kullanılan teller ve kablolar ile gereçlerin imalatı
+C 27.4 Elektrikli aydınlatma ekipmanlarının imalatı
+C 27.5 Ev aletleri imalatı
+C 27.9 Diğer elektrikli ekipmanların imalatı
+C 28 Başka yerde sınıflandırılmamış makine ve ekipman imalatı
+C 28.1 Genel amaçlı makinelerin imalatı ve parçaları
+C 28.2 Diğer genel amaçlı makinelerin imalatı
+C 28.3 Tarım ve ormancılık makinelerinin imalatı
+C 28.4 Metal işleme makineleri ve takım tezgahlarının imalatı
+C 28.9 Özel amaçlı diğer makinelerin imalatı
+C 29 Motorlu kara taşıtı, treyler (römork) ve yarı treyler (yarı römork) imalatı
+C 29.1 Motorlu kara taşıtlarının imalatı
+C 29.2 Motorlu kara taşıtları karoseri (kaporta) imalatı; treyler (römork) ve yarı treyler (yarı römork) imalatı
+C 29.3 Motorlu kara taşıtları için parça ve aksesuar imalatı
+C 30 Diğer ulaşım araçlarının imalatı
+C 30.1 Gemi ve tekne yapımı
+C 30.2 Demir yolu lokomotifleri ve vagonlarının imalatı
+C 30.3 Hava taşıtları ve uzay araçları ile bunlarla ilgili makinelerin imalatı
+C 30.4 Askeri savaş araçlarının imalatı
+C 30.9 Başka yerde sınıflandırılmamış ulaşım ekipmanlarının imalatı
+C 31 Mobilya imalatı
+C 31.0 Mobilya imalatı
+C 32 Diğer imalatlar
+C 32.1 Mücevherat, bijuteri ve ilgili eşyaların imalatı
+C 32.2 Müzik aletleri imalatı
+C 32.3 Spor malzemeleri imalatı
+C 32.4 Oyun ve oyuncak imalatı
+C 32.5 Tıbbi ve dişçilik ile ilgili araç ve gereçlerin imalatı
+C 32.9 Başka yerde sınıflandırılmamış imalatlar
+C 33 Makine ve ekipmanların kurulumu ve onarımı
+C 33.1 Fabrikasyon metal ürünlerin, makinelerin ve ekipmanların onarımı
+C 33.2 Sanayi makine ve ekipmanlarının kurulumu
+
+**D ELEKTRİK, GAZ, BUHAR VE İKLİMLENDİRME ÜRETİMİ VE DAĞITIMI**
+D 35 Elektrik, gaz, buhar ve iklimlendirme üretimi ve dağıtımı
+D 35.1 Elektriğin üretimi, iletimi ve dağıtımı
+D 35.2 Gaz imalatı; şebeke üzerinden gaz halindeki yakıtların dağıtımı
+D 35.3 Buhar ve iklimlendirme temini
+
+**E SU TEMİNİ; KANALİZASYON, ATIK YÖNETİMİ VE İYİLEŞTİRME FAALİYETLERİ**
+E 36 Suyun toplanması, arıtılması ve dağıtılması
+E 36.0 Suyun toplanması, arıtılması ve dağıtılması
+E 37 Kanalizasyon
+E 37.0 Kanalizasyon
+E 38 Atığın toplanması, ıslahı ve bertarafı faaliyetleri; maddelerin geri kazanımı
+E 38.1 Atıkların toplanması
+E 38.2 Atıkların ıslahı ve bertarafı
+E 38.3 Materyallerin geri kazanımı
+E 39 İyileştirme faaliyetleri ve diğer atık yönetimi hizmetleri
+E 39.0 İyileştirme faaliyetleri ve diğer atık yönetimi hizmetleri
+
+**F İNŞAAT**
+F 41 Bina inşaatı
+F 41.1 Bina projelerinin geliştirilmesi
+F 41.2 İkamet amaçlı olan veya ikamet amaçlı olmayan binaların inşaatı
+F 42 Bina dışı inşaat
+F 42.1 Kara yolları ve demir yolları inşaatı
+F 42.2 Hizmet projelerinin inşaatı
+F 42.9 Bina dışı diğer yapılara ait projelerin inşaatı
+F 43 Özel uzmanlık gerektiren inşaat faaliyetleri
+F 43.1 Yıkım ve şantiyenin hazırlanması
+F 43.2 Elektrik tesisatı, sıhhi tesisat ve diğer inşaat tesisatı faaliyetleri
+F 43.3 Binanın tamamlanması ve bitirilmesi
+F 43.9 Başka yerde sınıflandırılmamış diğer özel uzmanlık gerektiren inşaat faaliyetleri
+
+**G TOPTAN VE PERAKENDE TİCARET; MOTORLU KARA TAŞITLARININ VE MOTOSİKLETLERİN ONARIMI**
+G 45 Motorlu kara taşıtlarının ve motosikletlerin toptan ve perakende ticareti ile onarımı
+G 45.1 Motorlu kara taşıtlarının toptan ve perakende ticareti
+G 45.2 Motorlu kara taşıtlarının bakım ve onarımı
+G 45.3 Motorlu kara taşıtlarının parça ve aksesuarlarının toptan ve perakende ticareti
+G 45.4 Motosikletlerin ve ilgili parça ve aksesuarların toptan ve perakende ticareti, onarımı ve bakımı
+G 46 Toptan ticaret (Motorlu kara taşıtları ve motosikletler hariç)
+G 46.1 Bir ücret veya sözleşmeye dayalı olarak yapılan toptan ticaret
+G 46.2 Tarımsal hammadde ve canlı hayvanların toptan ticareti
+G 46.3 Gıda, içecek ve tütün toptan ticareti
+G 46.4 Ev eşyalarının toptan ticareti
+G 46.5 Bilgi ve iletişim teknolojisi ekipmanlarının toptan ticareti
+G 46.6 Diğer makine, ekipman, aksam ve parçaları ile büro mobilyalarının toptan ticareti
+G 46.7 Belirli bir mala tahsis edilmiş mağazalardaki diğer toptan ticaret
+G 46.9 Belirli bir mala tahsis edilmemiş mağazalardaki toptan ticaret
+G 47 Perakende ticaret (Motorlu kara taşıtları ve motosikletler hariç)
+G 47.1 Belirli bir mala tahsis edilmemiş mağazalardaki perakende ticaret
+G 47.2 Belirli bir mala tahsis edilmiş mağazalarda gıda, içecek ve tütün perakende ticareti
+G 47.3 Belirli bir mala tahsis edilmiş mağazalarda otomotiv yakıtının perakende ticareti
+G 47.4 Belirli bir mala tahsis edilmiş mağazalarda bilgi ve iletişim teknolojisi (ICT) teçhizatının perakende ticareti
+G 47.5 Belirli bir mala tahsis edilmiş mağazalarda diğer ev eşyalarının perakende ticareti
+G 47.6 Belirli bir mala tahsis edilmiş mağazalarda kültür ve eğlence mallarının perakende ticareti
+G 47.7 Belirli bir mala tahsis edilmiş mağazalarda diğer malların perakende ticareti
+G 47.8 Tezgahlar ve pazar yerleri vasıtasıyla perakende ticaret
+G 47.9 Mağazalar, tezgahlar ve pazar yerleri dışındaki perakende ticaret
+
+**H ULAŞTIRMA VE DEPOLAMA**
+H 49 Kara taşımacılığı ve boru hattı taşımacılığı
+H 49.1 Demir yolu ile şehirler arası yolcu taşımacılığı
+H 49.2 Demir yolu ile yük taşımacılığı
+H 49.3 Kara taşımacılığı ile yapılan diğer yolcu taşımacılığı
+H 49.4 Kara yolu ile yük taşımacılığı
+H 49.5 Boru hattı taşımacılığı
+H 50 Su yolu taşımacılığı
+H 50.1 Deniz ve kıyı sularında yolcu taşımacılığı
+H 50.2 Deniz ve kıyı sularında yük taşımacılığı
+H 50.3 İç sularda yolcu taşımacılığı
+H 50.4 İç sularda yük taşımacılığı
+H 51 Hava yolu taşımacılığı
+H 51.1 Hava yolu ile yolcu taşımacılığı
+H 51.2 Hava yolu ile yük taşımacılığı ve uzay taşımacılığı
+H 52 Depolama ve taşımacılığı destekleyici faaliyetler
+H 52.1 Depolama ve ambarlama
+H 52.2 Taşımacılığı destekleyici faaliyetler
+H 53 Posta ve kurye faaliyetleri
+H 53.1 Evrensel hizmet yükümlülüğü altında yürütülen posta faaliyetleri
+H 53.2 Diğer posta ve kurye faaliyetleri
+
+**I KONAKLAMA VE YİYECEK HİZMETİ FAALİYETLERİ**
+I 55 Konaklama
+I 55.1 Oteller ve benzer konaklama yerleri
+I 55.2 Tatil ve diğer kısa süreli konaklama yerleri
+I 55.3 Kamp alanları, motorlu karavan ve karavan tipi treyler (römork) park hizmetleri
+I 55.9 Diğer konaklama yerleri
+I 56 Yiyecek ve içecek hizmeti faaliyetleri
+I 56.1 Lokantalar ve seyyar yemek hizmeti faaliyetleri
+I 56.2 Dışarıya yemek sunan işletmelerin faaliyetleri ve diğer yiyecek hizmetleri faaliyetleri
+I 56.3 İçecek sunum hizmetleri
+
+**J BİLGİ VE İLETİŞİM**
+J 58 Yayımcılık faaliyetleri
+J 58.1 Kitap, dergi ve diğer yayımcılık faaliyetleri
+J 58.2 Yazılım programlarının yayımlanması
+J 59 Sinema filmi, video ve televizyon programları yapımcılığı, ses kaydı ve müzik yayıncılığı faaliyetleri
+J 59.1 Sinema filmi, video ve televizyon programları faaliyetleri
+J 59.2 Ses kaydı ve müzik yayıncılığı faaliyetleri
+J 60 Radyo ve televizyon programcılığı ve yayıncılığı faaliyetleri
+J 60.1 Radyo yayıncılığı
+J 60.2 Televizyon programcılığı ve yayıncılığı faaliyetleri
+J 61 Telekomünikasyon
+J 61.1 Kablolu telekomünikasyon faaliyetleri
+J 61.2 Kablosuz telekomünikasyon faaliyetleri
+J 61.3 Uydu üzerinden telekomünikasyon faaliyetleri
+J 61.9 Diğer telekomünikasyon faaliyetleri
+J 62 Bilgisayar programlama, danışmanlık ve ilgili faaliyetler
+J 62.0 Bilgisayar programlama, danışmanlık ve ilgili faaliyetler
+J 63 Bilgi hizmet faaliyetleri
+J 63.1 Veri işleme, barındırma ve ilgili faaliyetler; web portalları
+J 63.9 Diğer bilgi hizmet faaliyetleri
+
+**K FİNANS VE SİGORTA FAALİYETLERİ**
+K 64 Finansal hizmet faaliyetleri (Sigorta ve emeklilik fonları hariç)
+K 64.1 Merkez bankası ve diğer parasal aracı kuruluşların faaliyetleri
+K 64.2 Holding şirketlerinin faaliyetleri
+K 64.3 Tröstler, fonlar ve benzeri mali varlıklar
+K 64.9 Başka yerde sınıflandırılmamış diğer finansal hizmet faaliyetleri
+K 65 Sigorta, reasürans ve emeklilik fonları (Zorunlu sosyal güvenlik hariç)
+K 65.1 Sigorta
+K 65.2 Reasürans
+K 65.3 Emeklilik fonları
+K 66 Finansal hizmetler ile sigorta faaliyetleri için yardımcı faaliyetler
+K 66.1 Finansal hizmetler için yardımcı faaliyetler
+K 66.2 Sigorta ve emeklilik fonlarına yardımcı faaliyetler
+K 66.3 Fon yönetimi faaliyetleri
+
+**L GAYRİMENKUL FAALİYETLERİ**
+L 68 Gayrimenkul faaliyetleri
+L 68.1 Kendine ait gayrimenkulün alımı ve satımı
+L 68.2 Kendine ait veya kiralanan gayrimenkulün kiraya verilmesi veya işletilmesi
+L 68.3 Bir ücret veya sözleşme temeline dayalı gayrimenkul faaliyetleri
+
+**M MESLEKİ, BİLİMSEL VE TEKNİK FAALİYETLER**
+M 69 Hukuk ve muhasebe faaliyetleri
+M 69.1 Hukuk faaliyetleri
+M 69.2 Muhasebe, defter tutma ve denetim faaliyetleri; mali müşavirlik
+M 70 İdare merkezi faaliyetleri; idari danışmanlık faaliyetleri
+M 70.1 İdare merkezi faaliyetleri
+M 70.2 İdari danışmanlık faaliyetleri
+M 71 Mimarlık ve mühendislik faaliyetleri; teknik test ve analiz
+M 71.1 Mimarlık ve mühendislik faaliyetleri ve ilgili teknik danışmanlık
+M 71.2 Teknik test ve analiz
+M 72 Bilimsel araştırma ve geliştirme faaliyetleri
+M 72.1 Mühendislik ve doğa bilimlerinde araştırma ve deneysel geliştirme
+M 72.2 Sosyal bilimler ve beşeri bilimlerde araştırma ve deneysel geliştirme
+M 73 Reklamcılık ve piyasa araştırması
+M 73.1 Reklamcılık
+M 73.2 Piyasa araştırması ve kamuoyu yoklaması
+M 74 Diğer mesleki, bilimsel ve teknik faaliyetler
+M 74.1 Uzmanlaşmış tasarım faaliyetleri
+M 74.2 Fotoğrafçılık faaliyetleri
+M 74.3 Tercüme ve sözlü tercüme faaliyetleri
+M 74.9 Başka yerde sınıflandırılmamış diğer mesleki, bilimsel ve teknik faaliyetler
+M 75 Veterinerlik faaliyetleri
+M 75.0 Veterinerlik faaliyetleri
+
+**N İDARİ VE DESTEK HİZMET FAALİYETLERİ**
+N 77 Kiralama ve leasing faaliyetleri
+N 77.1 Motorlu kara taşıtlarının kiralanması ve leasingi
+N 77.2 Kişisel eşyaların ve ev eşyalarının kiralanması
+N 77.3 Diğer makine, ekipman ve somut malların kiralanması ve leasingi
+N 77.4 Maddi olmayan varlıkların kiralanması
+N 78 İstihdam faaliyetleri
+N 78.1 İş bulma acentelerinin faaliyetleri
+N 78.2 Geçici iş bulma acentelerinin faaliyetleri
+N 78.3 Diğer insan kaynaklarının sağlanması
+N 79 Seyahat acentesi, tur operatörü ve diğer rezervasyon hizmetleri ile ilgili faaliyetler
+N 79.1 Seyahat acentesi ve tur operatörü faaliyetleri
+N 79.9 Diğer rezervasyon hizmetleri ve ilgili faaliyetler
+N 80 Güvenlik ve soruşturma faaliyetleri
+N 80.1 Özel güvenlik faaliyetleri
+N 80.2 Güvenlik sistemleri hizmet faaliyetleri
+N 80.3 Soruşturma faaliyetleri
+N 81 Binalar ile ilgili hizmetler ve çevre düzenlemesi faaliyetleri
+N 81.1 Tesis yönetimi faaliyetleri
+N 81.2 Temizlik faaliyetleri
+N 81.3 Çevre düzenlemesi ve bakımı faaliyetleri
+N 82 Büro yönetimi, büro destek ve iş destek faaliyetleri
+N 82.1 Büro yönetimi ve destek faaliyetleri
+N 82.2 Çağrı merkezlerinin faaliyetleri
+N 82.3 Kongre ve ticari gösteri organizasyonu
+N 82.9 Başka yerde sınıflandırılmamış işletme destek hizmet faaliyetleri
+
+**O KAMU YÖNETİMİ VE SAVUNMA; ZORUNLU SOSYAL GÜVENLİK**
+O 84 Kamu yönetimi ve savunma; zorunlu sosyal güvenlik
+O 84.1 Ülke yönetimi ve toplumun ekonomik ve sosyal politikalarının yönetimi
+O 84.2 Bir bütün olarak topluma hizmetlerin sağlanması
+O 84.3 Zorunlu sosyal güvenlik faaliyetleri
+
+**P EĞİTİM**
+P 85 Eğitim
+P 85.1 Okul öncesi eğitim
+P 85.2 İlköğretim
+P 85.3 Ortaöğretim
+P 85.4 Yükseköğretim
+P 85.5 Diğer eğitim
+P 85.6 Eğitimi destekleyici faaliyetler
+
+**Q İNSAN SAĞLIĞI VE SOSYAL HİZMET FAALİYETLERİ**
+Q 86 İnsan sağlığı hizmetleri
+Q 86.1 Hastane hizmetleri
+Q 86.2 Tıp ve dişçilik ile ilgili uygulama faaliyetleri
+Q 86.9 Diğer insan sağlığı hizmetleri
+Q 87 Barınacak yer sağlanan sosyal hizmet faaliyetleri
+Q 87.1 Hemşireli yatılı bakım faaliyetleri
+Q 87.2 Zihinsel engellilik, ruh sağlığı ve madde bağımlılığına yönelik yatılı bakım faaliyetleri
+Q 87.3 Yaşlılar ve bedensel engelliler için yatılı bakım faaliyetleri
+Q 87.9 Diğer yatılı bakım faaliyetleri
+Q 88 Barınacak yer sağlanmaksızın sosyal hizmetler
+Q 88.1 Yaşlılar ve bedensel engelliler için barınacak yer sağlanmaksızın sosyal hizmetler
+Q 88.9 Diğer barınacak yer sağlanmaksızın sosyal hizmet faaliyetleri
+
+**R KÜLTÜR, SANAT, EĞLENCE, DİNLENCE VE SPOR**
+R 90 Yaratıcı sanatlar, eğlence ve hız gösterisi faaliyetleri
+R 90.0 Yaratıcı sanatlar, eğlence ve hız gösterisi faaliyetleri
+R 91 Kütüphaneler, arşivler, müzeler ve diğer kültürel faaliyetler
+R 91.0 Kütüphaneler, arşivler, müzeler ve diğer kültürel faaliyetler
+R 92 Kumar ve bahis oyunları faaliyetleri
+R 92.0 Kumar ve bahis oyunları faaliyetleri
+R 93 Spor faaliyetleri ve eğlence - dinlence faaliyetleri
+R 93.1 Spor faaliyetleri
+R 93.2 Eğlence ve dinlence faaliyetleri
+
+**S DİĞER HİZMET FAALİYETLERİ**
+S 94 Üye olunan kuruluşların faaliyetleri
+S 94.1 İş, işveren ve meslek kuruluşlarının faaliyetleri
+S 94.2 Sendika faaliyetleri
+S 94.9 Diğer üye olunan kuruluşların faaliyetleri
+S 95 Bilgisayarların, kişisel eşyaların ve ev eşyalarının onarımı
+S 95.1 Bilgisayarların ve iletişim araç ve gereçlerinin onarımı
+S 95.2 Kişisel eşyaların ve ev eşyalarının onarımı
+S 96 Diğer kişisel hizmet faaliyetleri
+S 96.0 Diğer kişisel hizmet faaliyetleri
+
+**T HANEHALKLARININ İŞVERENLER OLARAK FAALİYETLERİ; HANEHALKLARI TARAFINDAN KENDİ KULLANIMLARINA YÖNELİK OLARAK ÜRETİLEN AYRIM YAPILMAMIŞ MAL VE HİZMET ÜRETİM FAALİYETLERİ**
+T 97 Hanehalklarının işverenler olarak ev içi personeli çalıştırma faaliyetleri
+T 97.0 Hanehalklarının işverenler olarak ev içi personeli çalıştırma faaliyetleri
+T 98 Hanehalkları tarafından kendi kullanımlarına yönelik olarak üretilen ayrım yapılmamış mal ve hizmetler
+T 98.1 Hanehalkları tarafından kendi kullanımlarına yönelik olarak üretilen ayrım yapılmamış malların üretim faaliyetleri
+T 98.2 Hanehalkları tarafından kendi kullanımlarına yönelik olarak üretilen ayrım yapılmamış hizmetler
+
+**U ULUSLARARASI ÖRGÜTLER VE TEMSİLCİLİKLERİNİN FAALİYETLERİ**
+U 99 Uluslararası örgütler ve temsilciliklerinin faaliyetleri
+U 99.0 Uluslararası örgütler ve temsilciliklerinin faaliyetleri
